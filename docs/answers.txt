@@ -1,0 +1,48 @@
+
+Git Lab Tutorials Date: March 05, 2026
+GitHub Account Setup Date(s): [PUT ROUGH ESTIMATE OR KNOWN DATES HERE]
+Repository Access: https://github.com/bettyp23/assignment2.git  (instructor can access via this URL if repository is public or if access is granted)
+
+
+(1) Push output (from docs/push_output_saved.txt):
+
+```plaintext
+To https://github.com/bettyp23/assignment2.git
+	83174a4..644daa7  master -> master
+
+```
+
+(2) How many commits have been done to the repository so far?
+- Commit count: 10
+- Command used: git rev-list --count HEAD
+
+(3) When was README.md modified last?
+- Last modified: 2026-03-05 11:35:31 -0500
+- Command used: git log -1 --format=%ci -- README.md
+
+(4) Mention two reasons why branches are used in a Git repository:
+- To isolate feature or bugfix work so changes don't affect the main branch until reviewed and merged.
+- To enable parallel development and code review workflows (multiple developers can work concurrently).
+
+(5) Difference between git log and git status:
+- git log shows the commit history (what commits were made, by whom, and when).
+- git status shows the current working tree and staging area status (what is modified, staged, deleted, or untracked).
+
+(6) Command to see commits where "Vehicle.h" was one of the committed files:
+- git log --oneline --name-only -- Vehicle.h
+
+(7) Command to see commits whose commit message contains the word "file":
+- git log --grep="file" --oneline
+
+(8) OOP definitions:
+(I) Inheritance: A mechanism where a class (subclass) acquires properties and behavior from another class (superclass), enabling code reuse and hierarchical organization.
+(II) Polymorphism: The ability for code to treat objects of different classes through a common interface, with method calls resolving to class-specific implementations.
+(III) Encapsulation: The bundling of data and the methods that operate on that data, and restricting direct external access to an object's internal state.
+
+(9) & (10) PDF questions:
+- I could not find a file named "Git Commands, workflow, and resources.pdf" in the repository. Please upload the PDF or paste the relevant text and I will answer 9 and 10. Placeholders below.
+
+9) Difference between “Dictator and Lieutenants” vs “Integration manager”: [PLACEHOLDER - PDF not found]
+
+10) Why a 100-dev team benefits from “Dictator and Lieutenants” vs “Centralized”: [PLACEHOLDER - PDF not found]
+
